@@ -5,6 +5,5 @@ script:
  — echo "Deploy!!"
 install:
  — npm install -g firebase-tools
- - firebase init
 after_success:
- — firebase deploy — project rainbowtables-dfc4f — token $FIREBASE_TOKEN
+ — firebase -project rainbowtables-dfc4f --token $FIREBASE_TOKEN deploy
