@@ -1,9 +1,7 @@
 language: node_js
 node_js:
- — "7"
-script:
- — echo "Deploy!!"
+  - "7"
 install:
- — npm install -g firebase-tools
+  - npm install -g firebase-tools
 after_success:
- — firebase deploy --project "rainbowtables-dfc4f" --token "$FIREBASE_TOKEN"
+  - firebase deploy --project "rainbowtables-dfc4f" --token "$FIREBASE_TOKEN"
