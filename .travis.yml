@@ -6,4 +6,4 @@ script:
 install:
  — npm install -g firebase-tools
 after_success:
- — firebase --project rainbowtables-dfc4f --token "$FIREBASE_TOKEN" deploy
+ — firebase deploy --project "rainbowtables-dfc4f" --token "$FIREBASE_TOKEN"

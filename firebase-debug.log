@@ -1,0 +1,32 @@
+[debug] [2018-06-21T22:40:54.083Z] ----------------------------------------------------------------------
+[debug] [2018-06-21T22:40:54.085Z] Command:       /usr/local/Cellar/node/8.1.4/bin/node /usr/local/bin/firebase deploy --project rainbowtables-dfc4f --token 1/n6Jy3lE-Un-__yKs86sIg--5rQyPh4ylDIyZmT8FHX0
+[debug] [2018-06-21T22:40:54.085Z] CLI Version:   3.18.6
+[debug] [2018-06-21T22:40:54.085Z] Platform:      darwin
+[debug] [2018-06-21T22:40:54.085Z] Node Version:  v8.1.4
+[debug] [2018-06-21T22:40:54.086Z] Time:          Thu Jun 21 2018 15:40:54 GMT-0700 (PDT)
+[debug] [2018-06-21T22:40:54.086Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-21T22:40:54.101Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-21T22:40:54.102Z] > authorizing via --token option
+[debug] [2018-06-21T22:40:54.103Z] > refreshing access token with scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-21T22:40:54.103Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/n6Jy3lE-Un-__yKs86sIg--5rQyPh4ylDIyZmT8FHX0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform' } 
+ Thu Jun 21 2018 15:40:54 GMT-0700 (PDT)
+[debug] [2018-06-21T22:40:54.358Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-21T22:40:54.358Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/rainbowtables-dfc4f  
+  
+ Thu Jun 21 2018 15:40:54 GMT-0700 (PDT)
+[debug] [2018-06-21T22:40:54.884Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-21T22:40:54.886Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/rainbowtables-dfc4f/tokens  
+  
+ Thu Jun 21 2018 15:40:54 GMT-0700 (PDT)
+[debug] [2018-06-21T22:40:55.416Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'rainbowtables-dfc4f'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
